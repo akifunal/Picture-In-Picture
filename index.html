@@ -4,23 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Template</title>
+    <title>Picture in Picture</title>
     <!-- Fav İcon -->
     <link
       rel="shortcut icon"
       href="https://www.google.com/s2/favicons?domain=codepen.io"
       type="image/x-icon"
     />
-    <!-- Font Awesome css -->
+    <!-- Barlow Font  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <script src="script.js"></script>
+    <main>
+      <!-- Video -->
+      <video id="video" controls height="360" width="640" hidden></video>
+      <!-- Button -->
+      <div class="button-container">
+        <button id="button">START</button>
+      </div>
+    </main>
+
+    <!-- Script -->
+    <script src="js/script.js"></script>
   </body>
 </html>
